@@ -1,0 +1,593 @@
+courses: {
+        "EEE221": {
+                "code": "EEE 221",
+                "title": "Basic Electrical Engineering I",
+                "semester": "First Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Two hours lectures per week",
+                "location": "Engineering Auditiorium",
+                "lecturer": "Engr. Prof. M.O Onibonoje, Mr. Victor Akinpelu",
+                "textbooks": [
+                        "Elements of Electromagnetics by N. O. Sadiku",
+                        "Network Theory by C. K. Alexander and M. N. O. Sadiku Jean-Pierre",
+                        "Measurement and Instrumentation Principle by Alan S. Morris"
+                ],
+                "overview": "Basic Electrical Engineering I introduces students to the fundamental principles and applications of electrical engineering, serving as a foundation for advanced courses in circuits, electromagnetics, machines, and power systems. The course begins with an exploration of electric and magnetic fields, covering Coulomb’s law, Gauss’s law, Biot–Savart law, and Ampere’s law, 125 before progressing into the concepts of magnetic circuits, magnetomotive force, permeability, and B–H curves. Students also study lumped circuit elements, resistors, capacitors, and inductors, alongside their voltage–current characteristics and roles in energy storage and dissipation. Core circuit analysis techniques are introduced through network theorems such as Kirchhoff’s laws, Thevenin’s and Norton’s theorems, Superposition, and Delta–Star transformations. The course further develops analytical skills through the study of AC circuits, including single-phase and three-phase systems, impedance, phasors, resonance, power factor, and load balancing under both balanced and unbalanced conditions. Emphasis is placed on applying mathematical tools to real engineering problems, interpreting results, and evaluating circuit performance. By combining theoretical concepts with problem-solving practice, the course equips students with the skills needed to analyze, model, and assess electrical systems while building competencies in engineering reasoning, teamwork, communication, and professional growth as outlined in the programme outcomes.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Evaluate the interactions between 1,2,5 electric fields of charge and magnetic fields of current, assessing their implications in basic engineering applications.",
+                                "pos": "PO1, PO2, PO4, PO9"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Explain the characteristics of 2,3,4 1,2 3,4,6 1,2,3,4 lumped circuit elements (resistance, capacitance, inductance) and their terminal behavior.",
+                                "pos": "PO1, PO2, PO5"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Apply network theorems (Kirchhoff’s laws, Superposition, Thevenin’s, Norton’s, and Star/Delta transformations) to",
+                                "pos": "PO2, PO3, PO4"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "solve practical electrical circuit problems.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "Analyze single-phase and three- 1,3,4 phase AC circuits, including active 1,2,3,4,5,10 loads, apparent power, and both balanced and unbalanced conditions.",
+                                "pos": "PO3, PO4, PO6"
+                        },
+                        {
+                                "id": "CLO 6",
+                                "desc": "Apply and interpret features of 2,3,6 magnetic circuits, including magnetomotive force, permeability, and B–H curves of materials, in solving practical problems. f)",
+                                "pos": "PO1, PO2, PO3, PO4"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction and fundamental concepts.",
+                        "Week 4-6: Core operations and analytical frameworks.",
+                        "Week 7-9: Advanced modules and system architectures.",
+                        "Week 10-12: Practical design case studies and review.",
+                        "Week 13-15: Revision and comprehensive examinations."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in Engineering Auditiorium. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "EEE222": {
+                "code": "EEE 222",
+                "title": "Basic Electrical Engineering II",
+                "semester": "Second Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Two hours lectures per week",
+                "location": "Engineering Auditiorium",
+                "lecturer": "Engr. Prof. M. O. Onibonoje, Mr. Victor Akinpelu",
+                "textbooks": [
+                        "Electricity and Magnetism by T. Matsushita",
+                        "Basic Network Theory by J. Vlach",
+                        "Integrated Electronics by J. Millman and C. Holkias"
+                ],
+                "overview": "Basic Electrical Engineering II builds upon the foundational concepts introduced in Basic Electrical Engineering I, extending students’ understanding from classical circuit theory into the domain of semiconductor physics and electronic devices. The course begins with an introduction to the atomic structure and the fundamental principles governing semiconductors, including the behavior of charge carriers, effective mass, mobility, conductivity, carrier lifetime, and recombination phenomena. Students are then introduced to transport mechanisms such as drift, diffusion, continuity equations, and the Hall effect, which provide the basis for analyzing semiconductor behavior in practical applications. The course progresses to the study of PN junction materials, diodes, and their practical uses in rectification, filtering, and voltage regulation circuits, with emphasis on Zener diode applications. Building on this, transistor theory is explored in depth, covering bipolar junction transistors (BJT) in common-base, commonemitter, and common-collector configurations, as well as field-effect transistors (FETs). Their static and dynamic characteristics are analyzed, and their role as switching devices and amplifiers is emphasized. Students will also engage with small-signal amplifier design and AC/DC load line analysis to strengthen both analytical and design skills. By the end of the course, students are expected to not only understand the theoretical principles of semiconductor devices but also apply them in designing, analyzing, and interpreting basic electronic circuits, thereby bridging the gap between circuit theory and modern electronics. This prepares students for advanced 133 courses in electronics and equips them with problem-solving and design competencies relevant to real-world electrical engineering applications.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Explain the atomic structure and 1,2 basic principles of semiconductors, including intrinsic and extrinsic materials, charge carriers, and energy bands.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Describe and calculate key 2,3,4 1,2 3,4,5 1,2 semiconductor properties such as effective mass, carrier mobility, conductivity, carrier lifetime, and recombination.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Apply carrier transport equations and analyze semiconductor behavior using continuity equations, drift and diffusion models, and the Hall effect.",
+                                "pos": "PO2, PO3, PO4"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Analyze the structure and function 4,5 1,2,5 of PN junction diodes, and",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "evaluate their applications in rectification, filtering, and regulation circuits.",
+                                "pos": "PO3, PO4, PO5"
+                        },
+                        {
+                                "id": "CLO 6",
+                                "desc": "Explain and compare the operation 2,4,5 2,3,6,7 of bipolar junction transistors (BJT) in CB, CE, and CC configurations, including input/output characteristics.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 7",
+                                "desc": "Design and interpret transistor- 3,6 based circuits such as small-signal 1,2,3,5 amplifiers and switching devices using AC/DC load line techniques. f)",
+                                "pos": "PO4, PO5"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction and fundamental concepts.",
+                        "Week 4-6: Core operations and analytical frameworks.",
+                        "Week 7-9: Advanced modules and system architectures.",
+                        "Week 10-12: Practical design case studies and review.",
+                        "Week 13-15: Revision and comprehensive examinations."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in Engineering Auditiorium. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "EEE325": {
+                "code": "EEE 325",
+                "title": "Electrical Machines I",
+                "semester": "First Semester",
+                "credits": 3,
+                "contactHours": "Lecture – Three hours",
+                "location": "D3-9 lectures per Week",
+                "lecturer": "Engr. Dr. O. N. Omogbai",
+                "textbooks": [
+                        "1. Electrical Machines with MATLAB® 2nd Edition by Turan Gonen. 2. Basics Of Electrical Drives 4th Revised edition by S K Pilla",
+                        "3. Electric machinery and transformers by Bhag S. Guru. Huseyin R. Hiziroglu.-3rd. edition 4. Hughes Electrical & Electronic Technology 10th Edition by Edward Hughes, John Hiley, Keith a) Brown, Ian McKenzie Smith."
+                ],
+                "overview": "This course covers the fundamentals of electromechanical devices and transformers, including energy conversion principles, transformer performance and types, DC machine operation, excitation, characteristics, and applications. It emphasizes practical aspects such as motor/generator selection, speed control, and braking, preparing students to analyze and apply machines and transformers in real engineering systems. 141",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Explain the basic principles 1, 2 1, 2, 3 of relays, actuators, and and and and and and and and electromechanical energy conversion.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Describe the operation, 1, 2 1, 2, 4, 5 performance parameters, and equivalent circuits of transformers.",
+                                "pos": "PO1, PO2, PO3"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Apply concepts of efficiency, 3, 4 2, 3, 10 regulation, and per-unit values in transformer analysis.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Differentiate between types 2, 4, 5 2, 3, 11 of transformers, including autotransformers and instrument transformers, and",
+                                "pos": "PO1, PO2, PO4, PO5"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "discuss their design elements.",
+                                "pos": "PO3, PO4"
+                        },
+                        {
+                                "id": "CLO 6",
+                                "desc": "Analyze transformer 3, 4, 5 2, 3, 6, 10 behavior in polyphase circuits and conditions for parallel operation.",
+                                "pos": "PO2, PO3, PO10"
+                        },
+                        {
+                                "id": "CLO 7",
+                                "desc": "Examine the construction, 2, 4 1, 2, 5 excitation methods, armature reaction, and performance characteristics of DC generators and motors.",
+                                "pos": "PO2, PO4, PO5"
+                        },
+                        {
+                                "id": "CLO 8",
+                                "desc": "Evaluate and select suitable 3, 4, 5 2, 3, 4, 10, motors and generators for practical applications, including speed control, electric braking, cross-field, and commutator machines. f)",
+                                "pos": "PO2, PO3, PO11"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction and fundamental concepts.",
+                        "Week 4-6: Core operations and analytical frameworks.",
+                        "Week 7-9: Advanced modules and system architectures.",
+                        "Week 10-12: Practical design case studies and review.",
+                        "Week 13-15: Revision and comprehensive examinations."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in D3-9 lectures per Week. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "EEE315": {
+                "code": "EEE 315",
+                "title": "Electromagnetic Fields and Waves I",
+                "semester": "First Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Three hours lectures per week",
+                "location": "Hall C3-6",
+                "lecturer": "Engr. Dr. A. O. Ojo",
+                "textbooks": [
+                        "- Owolabi & Ojo (2022), Electromagnetic Fields and Waves – Principles and Applications Engineering Electromagnetics, 1st edition, Matprints Inc. - Gunther Lehner (2010), Electromagnetic Field Theory for Engineers and Physicists, Springer Heidelberg Dordrecht London New York"
+                ],
+                "overview": "This course covers the fundamental concepts of electromagnetics, emphasizing the mathematical tools and physical principles essential for analyzing and solving problems in electrical engineering. Topics include vector analysis, integral theorems, and the behavior of electric and magnetic fields governed by laws such as Coulomb’s Law, Gauss’s Law, Faraday’s Law, BiotSavart and Ampere’s Law. The course covers electric fields and electric potentials for various charge distributions, including lines, rings, surfaces, volumes, and electric dipoles. A key focus is on Maxwell’s Equations and their role in understanding electromagnetic wave propagation in various media, as well as practical applications such as wave behavior, reflection, refraction, and transmission, and modern communication systems and their societal and ethical impacts.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Understand the fundamental 2, 4, 5 mathematical tools such as vector analysis, integra and and and and and and calculus, theorems and dimensional analysis",
+                                "pos": "PO2, PO4, PO5"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Understand the behaviour of 2, 3 1, 2, 5 electric and potential around different structures; surfaces and volumes.",
+                                "pos": "PO2, PO3"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Analyze the fundamental 2, 3, 4 1, 2 laws governing electric and magnetic fields.",
+                                "pos": "PO1, PO2, PO5"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Apply the Maxwell's their concept Equations role of 2, 3 1, 2, 5 and in analyzing electromagnetic fields and waves. Compare the behavior of 2, 3, 4 2, 5 wave propagation mechanism in different media and their effect. Justify the electromagnetic concept of 2, 6 8, 10, 11 application in the modern society. f)",
+                                "pos": "PO2, PO3, PO4"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction and fundamental concepts.",
+                        "Week 4-6: Core operations and analytical frameworks.",
+                        "Week 7-9: Advanced modules and system architectures.",
+                        "Week 10-12: Practical design case studies and review.",
+                        "Week 13-15: Revision and comprehensive examinations."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in Hall C3-6. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "EEE319": {
+                "code": "EEE 319",
+                "title": "Measurement and Instrumentation",
+                "semester": "First Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Two hours lectures per week",
+                "location": "Engineering Auditorium",
+                "lecturer": "Engr. Prof. M.O Onibonoje, Mr. Victor Akinpelu",
+                "textbooks": [
+                        "Measurement and Instrumentation Principle by Alan S. Morris",
+                        "Electrical Technology by B. L. Theraja and A.K. Theraja",
+                        "A Course in Electronic and Electrical Measurement & Instrumentation by Gupta",
+                        "Basic Concepts of Medical Instrumentation by Walter H. Olson"
+                ],
+                "overview": "Measurement and Instrumentation introduces students to the fundamental principles, techniques, and tools essential for accurate measurement in electrical and electronic engineering. The course provides a solid grounding in units, symbols, and standards of measurement, followed by a study of the theory of errors, distinguishing between systematic and random errors and methods for minimizing their impact on results. Students will explore a wide range of instruments, beginning with traditional indicating devices such as moving coil, moving iron, dynamometer, and electrostatic instruments, before progressing to advanced measuring systems 154 for DC and AC quantities, including impedance, power, and energy measurements. The use of instrument potentiometers, oscilloscopes, and cathode-ray tubes (CRT) for measurement applications forms a crucial part of the curriculum, along with the study of pen recorders and modern digital test instruments. In addition, the course introduces students to practical issues such as signal interference, screening, and grounding techniques that ensure accuracy and reliability in measurement systems. Through this comprehensive coverage, students develop the ability to identify and understand key electrical quantities, interpret measurement results, and effectively apply modern test equipment in experimental and industrial contexts. The course outcomes emphasize both conceptual understanding and practical application, aligning with broader programme learning objectives that encourage problem-solving, communication, ethical responsibility, and the integration of technology in engineering practice. Ultimately, EEE 319 equips students with the essential skills to analyze, interpret, and communicate measurement data, preparing them for advanced studies and professional practice in electrical and electronic engineering.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Understand the core principles and concepts of Measurement and Instrumentation.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Apply mathematical and engineering models to solve problems in Measurement and Instrumentation.",
+                                "pos": "PO1, PO3"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Design and analyze systems and components relevant to Measurement and Instrumentation.",
+                                "pos": "PO3, PO5"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Uphold professional standards and ethics in applications of Measurement and Instrumentation.",
+                                "pos": "PO8, PO12"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction and fundamental concepts.",
+                        "Week 4-6: Core operations and analytical frameworks.",
+                        "Week 7-9: Advanced modules and system architectures.",
+                        "Week 10-12: Practical design case studies and review.",
+                        "Week 13-15: Revision and comprehensive examinations."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in Engineering Auditorium. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "EEE324": {
+                "code": "EEE 324",
+                "title": "Linear systems",
+                "semester": "Second Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Two hours lectures per week",
+                "location": "Hall B2-5",
+                "lecturer": "Engr. Prof. M. O. Onibonoje, Mr. Victor Akinpelu",
+                "textbooks": [
+                        "◼ Linear System by H. Bourles ◼ Control System by Norman Nise ◼ Feedback and Control Systems by Joseph J. DiStefano, Allen R. Stubberud and Ivan J. Williams"
+                ],
+                "overview": "Linear Systems provides students with a comprehensive foundation in the modeling, analysis, and evaluation of dynamic systems across electrical, mechanical, and thermal domains. The course begins by introducing mathematical models of physical systems and develops the concept of system analogies, enabling learners to translate problems from one physical domain to another. Emphasis is placed on control system classifications and feedback concepts, highlighting their 161 role in shaping system performance and ensuring desired outputs under varying conditions. Students explore transfer functions, block diagrams, and signal flow graphs, building the skills to represent, simplify, and interconnect systems efficiently. The course further investigates system responses, covering both transient and steady-state behaviors, and equips students with frequency-domain analysis tools such as root-locus, Bode plots, Nyquist diagrams, and polar plots for performance characterization and design insights. Stability analysis forms a crucial component, with techniques such as Routh-Hurwitz, Nyquist, and Bode criteria applied to determine robustness and reliability of systems. Finally, an introduction to analogue computer simulation enhances practical understanding by demonstrating system behavior and control strategies. By the end of the course, students will be able to model real-world systems, analyze responses, assess stability, and apply feedback principles, thereby gaining a strong analytical base for advanced courses in control engineering, signal processing, and system design. The knowledge gained equips learners to tackle contemporary industrial challenges where system modeling and control are vital, from automation and robotics to energy systems and communication networks.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Develop mathematical models of 2,3,4 electrical, mechanical, and thermal systems using system analogies and differential equations.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Explain the classifications of control systems, and describe feedback concepts including their impact on system performance.",
+                                "pos": "PO2, PO3, PO4"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Analyze the transient and 1,2,5 3,4,6 1,2,5 frequency responses of linear systems using time-domain and frequency-domain methods Assess the stability of control 2,5,6 1,2,3 systems using techniques such as Routh-Hurwitz, Bode, and Nyquist criteria Construct and simplify transfer 1,3,4 functions, block diagrams, and 1,2,3 signal flow graphs to describe and",
+                                "pos": "PO1, PO2, PO5"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "analyze control systems f)",
+                                "pos": "PO3, PO4, PO6"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction and fundamental concepts.",
+                        "Week 4-6: Core operations and analytical frameworks.",
+                        "Week 7-9: Advanced modules and system architectures.",
+                        "Week 10-12: Practical design case studies and review.",
+                        "Week 13-15: Revision and comprehensive examinations."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in Hall B2-5. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "EEE321": {
+                "code": "EEE 321",
+                "title": "Electric Circuit Theory I",
+                "semester": "First Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Three hours lectures per week",
+                "location": "Hall C3-6",
+                "lecturer": "Engr. Dr. A. O. Ojo & Engr O. Imahe",
+                "textbooks": [
+                        "- Charles Alexander & Matthew Sadiku (2021), Circuit-Fundamentals of Electric Circuits 7th Ed (1)."
+                ],
+                "overview": "Circuit elements, circuit theorems, applications. Network response to steps, ramp, impulses. Network functions, response to exponential, sinusoidal sources. Laplace transform, polezero analysis, network synthesis, resonance, two-point analysis, ladder network. transformation, T, P Networks.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Analyze the characteristics and applications of various circuit elements using fundamental circuit theorems",
+                                "pos": "PO1, PO2, PO4, PO12"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Evaluate the transient and steady-state network responses to step, ramp, and impulse inputs in electrical circuits Assess the behavior of network functions and their responses to exponential and sinusoidal sources in dynamic systems",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Design and synthesize electrical networks using Laplace transform, pole-zero analysis, and resonance techniques, including ladder and two-point configurations",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Apply Star-Delta transformation and T/Pi network configurations to optimize circuit performance and analyze complex network topologies f)",
+                                "pos": "PO1, PO8, PO11, PO12"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction and fundamental concepts.",
+                        "Week 4-6: Core operations and analytical frameworks.",
+                        "Week 7-9: Advanced modules and system architectures.",
+                        "Week 10-12: Practical design case studies and review.",
+                        "Week 13-15: Revision and comprehensive examinations."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in Hall C3-6. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "EEE322": {
+                "code": "EEE 322",
+                "title": "Electric Circuit Theory II",
+                "semester": "Second Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Three hours lecture per week",
+                "location": "C3-6",
+                "lecturer": "Engr. Dr. A. O. Ojo & Engr. O. Imahe",
+                "textbooks": [
+                        "Charles Alexander and Matthew Sadiku (2021), Circuit-Fundamentals of Electric Circuits 7th Ed, McGraw-Hill 173"
+                ],
+                "overview": "Networks; Node, loop analysis, Realization of transfer functions, Filters: design, operation, low, high, Band pass. Butterworth, Chebychev, filters, Non-linear circuit analysis Locus diagrams. Network functions. Active network synthesis and analysis: Foster and Cauers.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Apply node and loop analysis 3, 4 techniques to solve complex electrical networks and validate circuit behavior under various conditions.",
+                                "pos": "PO1, PO2, PO4, PO12"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Design and realize transfer functions for electrical systems, including the synthesis and implementation 11, 12 of active networks using Foster and Cauer forms.",
+                                "pos": "PO3, PO4"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Analyze and interpret the 4, 5 characteristics and performance of 11, 12 1, 2 analog filters such as low-pass, highpass, band-pass, Butterworth, and Chebyshev filters.",
+                                "pos": "PO1, PO2, PO3"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Evaluate non-linear circuit responses using locus diagrams and assess the impact of non-linearity on system performance. Assess and synthesize network 5, 6 functions for both passive and active systems, demonstrating proficiency in filter",
+                                "pos": "PO11, PO12"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "design and network optimization. f)",
+                                "pos": "PO4, PO5"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction and fundamental concepts.",
+                        "Week 4-6: Core operations and analytical frameworks.",
+                        "Week 7-9: Advanced modules and system architectures.",
+                        "Week 10-12: Practical design case studies and review.",
+                        "Week 13-15: Revision and comprehensive examinations."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in C3-6. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "EEE326": {
+                "code": "EEE 326",
+                "title": "Electrical Machines II",
+                "semester": "Second Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Three hours",
+                "location": "B-04 lectures per Week",
+                "lecturer": "Engr. A. Akinola",
+                "textbooks": [
+                        "1. S. J. Chapman, (1999), Electric machinery fundamentals. New York: McGraw. 2. S. K. Sahdev, (2018) Electrical Machines, Cambridge University Press 3. T. Wildi, (2014) Electrical Machines, Drives, and Power Systems Pearson Education Limited Edinburgh Gate. Sixth Edition"
+                ],
+                "overview": "This course explores the production of rotating magnetic fields in AC machines. Simple theory of three-phase induction motors; torque speed characteristics, Single-phase induction motorsapplications. Selection of motors, for practical applications. Synchronous machines.",
+                "prerequisites": "EEE 325: Electrical Machines I",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Explain the principle of operation of A.C. machines, including the production of rotating magnetic fields in three-phase systems.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Analyze the construction and working principles of three-phase induction motors Compare and contrast the performance and applications of single-phase and three-phase motors.",
+                                "pos": "PO1, PO2, PO3"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Describe the basic operating 1, 2 and and and and and 1, 2, 3 2, 3, 10 1, 2 principles and applications of synchronous machines.",
+                                "pos": "PO2, PO3, PO10"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Apply knowledge of A.C. motor characteristics to select appropriate motors for practical applications. f)",
+                                "pos": "PO1, PO2"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction to AC Machines",
+                        "Week 4-6: 1 -2",
+                        "Week 7-9: •",
+                        "Week 10-12: Overview of electric machines (DC vs AC).",
+                        "Week 13-15: •"
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in B-04 lectures per Week. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        }
+},
+mappings: [
+        {
+                "course": "EEE 221",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 3,
+                "po5": 2,
+                "po6": 2,
+                "po7": 1,
+                "po8": 1,
+                "po9": 2,
+                "po10": 1,
+                "po11": 1,
+                "po12": 1
+        },
+        {
+                "course": "EEE 222",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 3,
+                "po5": 3,
+                "po6": 1,
+                "po7": 1,
+                "po8": 1,
+                "po9": 1,
+                "po10": 1,
+                "po11": 1,
+                "po12": 1
+        },
+        {
+                "course": "EEE 315",
+                "po1": 2,
+                "po2": 3,
+                "po3": 3,
+                "po4": 3,
+                "po5": 3,
+                "po6": 1,
+                "po7": 1,
+                "po8": 1,
+                "po9": 1,
+                "po10": 1,
+                "po11": 1,
+                "po12": 1
+        },
+        {
+                "course": "EEE 319",
+                "po1": 3,
+                "po2": 2,
+                "po3": 3,
+                "po4": 1,
+                "po5": 2,
+                "po6": 1,
+                "po7": 1,
+                "po8": 2,
+                "po9": 1,
+                "po10": 1,
+                "po11": 1,
+                "po12": 2
+        },
+        {
+                "course": "EEE 321",
+                "po1": 3,
+                "po2": 3,
+                "po3": 1,
+                "po4": 2,
+                "po5": 1,
+                "po6": 1,
+                "po7": 1,
+                "po8": 2,
+                "po9": 1,
+                "po10": 1,
+                "po11": 2,
+                "po12": 3
+        },
+        {
+                "course": "EEE 322",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 3,
+                "po5": 2,
+                "po6": 1,
+                "po7": 1,
+                "po8": 1,
+                "po9": 1,
+                "po10": 1,
+                "po11": 2,
+                "po12": 3
+        },
+        {
+                "course": "EEE 324",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 3,
+                "po5": 2,
+                "po6": 2,
+                "po7": 1,
+                "po8": 1,
+                "po9": 1,
+                "po10": 1,
+                "po11": 1,
+                "po12": 1
+        },
+        {
+                "course": "EEE 325",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 3,
+                "po5": 3,
+                "po6": 1,
+                "po7": 1,
+                "po8": 1,
+                "po9": 1,
+                "po10": 2,
+                "po11": 2,
+                "po12": 1
+        },
+        {
+                "course": "EEE 326",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 1,
+                "po5": 1,
+                "po6": 1,
+                "po7": 1,
+                "po8": 1,
+                "po9": 1,
+                "po10": 2,
+                "po11": 1,
+                "po12": 1
+        }
+]

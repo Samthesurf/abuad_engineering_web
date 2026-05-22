@@ -1,0 +1,830 @@
+courses: {
+        "COE519": {
+                "code": "COE 519",
+                "title": "Prototyping Techniques",
+                "semester": "First Semester",
+                "credits": 2,
+                "contactHours": "Lecture – Two hours lectures per week",
+                "location": "Hall B2-9",
+                "lecturer": "Engr. Dr. Ejidokun T. O.",
+                "textbooks": [
+                        "Niku, Saeed B. Introduction to Robotics: Analysis, Control, Applications. 3rd ed., Wiley, 2020.",
+                        "Groover, M. P. (2021). Automation, production systems, and computer-integrated manufacturing (5th ed.). Pearson.",
+                        "a) Craig, J. J. (2021). Introduction to robotics: Mechanics and control (4th ed.). Pearson."
+                ],
+                "overview": "This course covers robot classification and manipulation. Technology and history of development of robots. Applications. Direct and inverse kinematics: arm equation. Workspace analysis and trajectory planning. Differential motion and statics. Robot and system integration. Robot control programming using Robotic operating system. Fundamentals of automation. Strategies and economic consideration. Integration of systems. Impact to the production factory. Analysis of automated flow lines. Assembly systems and line balancing. Automated assembly systems. Automated materials handling and storage systems. Automation in inspection and testing Future automated factory.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Understand the 2, 4, 5 fundamentals of robotics, and and and and and and types of robots, their historical development, and industrial applications.",
+                                "pos": "PO2, PO4, PO5"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Solve direct and inverse 2, 3 1, 2, 5 kinematics problems to",
+                                "pos": "PO2, PO3"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "analyze robot arm equations and determine robot workspace.",
+                                "pos": "PO1, PO2, PO5"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Formulate and assess robot 2, 3, 4 1, 2 trajectories for given tasks and constraints.",
+                                "pos": "PO2, PO3, PO4"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "Analyze differential motion 2, 3 1, 2, 5 and static force/torque conditions in robotic manipulators.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 6",
+                                "desc": "Develop and implement 2, 3, 4 2, 5 robot control programs using the Robot Operating System (ROS).",
+                                "pos": "PO2, PO3"
+                        },
+                        {
+                                "id": "CLO 7",
+                                "desc": "Explain the fundamentals of 2, 6 8, 10, 11 automation, including strategies, economics, and their impact on production systems. f)",
+                                "pos": "PO1, PO2, PO5"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction and fundamental concepts.",
+                        "Week 4-6: Core operations and analytical frameworks.",
+                        "Week 7-9: Advanced modules and system architectures.",
+                        "Week 10-12: Practical design case studies and review.",
+                        "Week 13-15: Revision and comprehensive examinations."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in Hall B2-9. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "COE517": {
+                "code": "COE 517",
+                "title": "Fuzzy logic and programming",
+                "semester": "First Semester",
+                "credits": 2,
+                "contactHours": "Lecture – Two hours lectures per week",
+                "location": "Hall B2-7",
+                "lecturer": "Engr. Dr. Ejidokun T. O.",
+                "textbooks": [
+                        "McNeill, F. M., & Thro, E. (2000). Fuzzy logic: A practical approach. Boston, MA: AP Professional.",
+                        "Ross, T. J. (2010). Fuzzy logic with engineering applications (3rd ed.). Chichester, UK: Wiley.",
+                        "Kasabov, N. K. (1996). Foundations of neural networks, fuzzy systems, and knowledge engineering. Cambridge, MA: MIT Press."
+                ],
+                "overview": "This course covers fuzzy set theory, knowledge base problem, objective and subjective knowledge, crisp sets, fuzzy sets, linguistic variables, membership functions. Set theoretic operations, comparison between crisp sets and fuzzy sets. Law of Contradiction and Law of Excluded Middle, fuzzy intersection, union and complement, and other fuzzy operators. Fuzzy relations and compositions on the same and different product spaces. Max-Min composition, Max-Product composition, fuzzy relational matrix, sup-star composition. Hedges or modifiers of linguistic variables, fuzzy logic vs. probability. Fuzzy reasoning and implication, the fuzzy truth 57 tables, traditional propositional logic and the rule of inference, the Modus Ponens and Modus Tollens, fuzzy modeling with causal IFTHEN statements. Fuzzy Models, fuzzy logic systems, combination of fuzzy basis functions, universal approximator, fuzzy neural network, fuzzy associate memory matrix, self-learning fuzzy systems. Fuzzy logic system applications. Fuzzy programming.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Explain the fundamental 2, 4, 5 concepts of fuzzy set theory, and and and and and and including crisp sets, fuzzy sets, membership functions, and linguistic variables.",
+                                "pos": "PO2, PO4, PO5"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Apply fuzzy set operations 2, 3 1, 2, 5 and relational compositions (union, intersection, complement, Max–Min, Max–Product, sup-star) to",
+                                "pos": "PO2, PO3"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "solve problems in uncertainty modeling.",
+                                "pos": "PO1, PO2, PO5"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Analyze the effect of 2, 3, 4 1, 2 linguistic modifiers (hedges) and compare fuzzy logic with probability in representing uncertainty and vagueness",
+                                "pos": "PO2, PO3, PO4"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "Demonstrate fuzzy 2, 3 1, 2, 5 reasoning using fuzzy truth tables, inference rules (Modus Ponens, Modus Tollens), and IF–THEN causal statements",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 6",
+                                "desc": "Develop fuzzy inference 2, 3, 4 2, 5 systems (Mamdani, Sugeno) and advanced fuzzy models (fuzzy basis functions, fuzzy neural networks, fuzzy associative memory).",
+                                "pos": "PO2, PO3"
+                        },
+                        {
+                                "id": "CLO 7",
+                                "desc": "Evaluate real-world 2, 6 8, 10, 11 applications of fuzzy logic in control, decision support, robotics, and intelligent systems f)",
+                                "pos": "PO1, PO2, PO5"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction and fundamental concepts.",
+                        "Week 4-6: Core operations and analytical frameworks.",
+                        "Week 7-9: Advanced modules and system architectures.",
+                        "Week 10-12: Practical design case studies and review.",
+                        "Week 13-15: Revision and comprehensive examinations."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in Hall B2-7. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "COE302": {
+                "code": "COE 302",
+                "title": "Object Oriented Programming",
+                "semester": "First Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Two hours lectures per week",
+                "location": "B-22",
+                "lecturer": "Engr. Dr. J. F. Orimolade",
+                "textbooks": [
+                        "Cay Horstmann (2013). Java for Everyone, 2nd Edition. John Wiley & Sons, Inc.",
+                        "Murali Chemuturi (2019). Computer Programming for Beginners, A step-by Step Guide. Taylor & Francis Group, LLC"
+                ],
+                "overview": "This course covers the basics of programming language such as variables, data types, expressions assignment statements, conditional and iterative control structures with emphases to Java programming language. Other key aspects such as Control structures, arrays, methods; pointers, and memory allocation, functions and parameter passing, are also covered. The course has been 64 tailored towards Object Oriented (OOP) paradigm in Java. Object Oriented Programming concepts such objects, classes and subclasses, Inheritance, encapsulation, data abstraction and Polymorphism are well covered in the course. The course addresses the structure of graphical user interface (GUI), with specific application to java programming language.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Understand the fundamental principles of programming language and the general software development techniques",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Understand the top down approach to software development techniques used in Java programming language, and analysis of java software programs and modification for new applications",
+                                "pos": "PO1, PO2, PO4"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Design and transform simple real life problem into software solutions using the general programming language techniques with emphasis on java syntax and methods",
+                                "pos": "PO2, PO3, PO6"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Apply Object Oriented programming 1, 2 1, 2, 4, 2, 3, 6 4,5 3, 8 to analyze, design and implement java-based OOP to develop applications to real life problems.",
+                                "pos": "PO4, PO5"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "Understand the Graphical User Interface (GUI) development packages such as JavaFx and apply same to programming projects in Java. f)",
+                                "pos": "PO3, PO8"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction to Procedural and OOP in Java:",
+                        "Week 4-6: 1-3",
+                        "Week 7-9: Definition of alphabet, syntax and semantics as used in selected higher-level",
+                        "Week 10-12: language. Explanation of the terms; Variables, data types, expressions and",
+                        "Week 13-15: assignment statements, Simple I/O, conditional and iterative control structures."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in B-22. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "COE512": {
+                "code": "COE 512",
+                "title": "Reliability and Maintainability",
+                "semester": "Second Semester",
+                "credits": 3,
+                "contactHours": "Lecture Credit Hours: - Three hours",
+                "location": "3 B2-7 lectures per Week",
+                "lecturer": "Engr. T. E. Fabunmi",
+                "textbooks": [
+                        "Engineering Curriculum textbooks & reference manuals."
+                ],
+                "overview": "This course introduces reliability and maintainability concepts, specifications, and metrics with applications to computer hardware, communication equipment, power systems, and software. It covers maintenance procedures, fault tolerance, troubleshooting, quality control, and design for reliability. Students will also explore software reliability, software quality assurance (SQA), ISO 9000 standards, and Capability Maturity Models (CMM). Emphasis is placed on integrating reliability engineering with quality assurance to ensure dependable and safe systems.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Explain POs Relevant and 2 maintainability concepts, specifications, and metrics.",
+                                "pos": "PO1, PO8"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Analyze fault tolerance, 4 quality control, 1, 2, 3 and maintenance procedures for hardware and communication systems.",
+                                "pos": "PO1, PO2, PO3"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Apply reliability 2, 3, 10 engineering principles to system design for higher availability and safety.",
+                                "pos": "PO2, PO3, PO10"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Evaluate software reliability, software safety, software and quality 3, 4, 11 assurance frameworks (ISO 9000, CMM).",
+                                "pos": "PO3, PO4, PO11"
+                        },
+                        {
+                                "id": "CLO 6",
+                                "desc": "use practical 3 of verification, validation, risk 6, 10, 12 management, and total quality (TQM) management in ensuring reliability. f)",
+                                "pos": "PO1, PO2, PO12"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction to reliability and maintainability concepts",
+                        "Week 4-6: Reliability specifications and metrics",
+                        "Week 7-9: Maintainability and maintenance procedures for computer and",
+                        "Week 10-12: communication systems",
+                        "Week 13-15: Fault troubleshooting techniques and QoS in data communication"
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in 3 B2-7 lectures per Week. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "COE511": {
+                "code": "COE 511",
+                "title": "Digital Signal Processing",
+                "semester": "First Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Two hours",
+                "location": "B-27 lectures per Week",
+                "lecturer": "Engr. Dr. J. F. Orimolade",
+                "textbooks": [
+                        "Li Tan, Jean Jiang (2013). Digital Signal Processing, Fundamentals and Applications, 2nd Edition. Academic Press (Elsevier).",
+                        "Gérard Blanchet, Maurice Charbit (2006). Digital Signal and Image Processing Using Matlab, ISTE Ltd, 2006."
+                ],
+                "overview": "This course covers the fundamentals of signal processing with emphasizes on digital signal processing principles, design and analysis tools, and applications in the related field of electrical, electronics and computer engineering. Topics covered in the course include overview of application of DSP, Digital Processing of analogue signals, sampling theorem, aliasing and quantization. Analytical tools such as z-transform, inverse z-transform, z-plane poles and zeros for analysis of linear time-invariant system stability. Discrete Fourier Analysis (DFT), inverse DFT, and Fast Fourier Transform (FFT) algorithms. Solution of difference equations, convolution, correlation, and impulse response. Digital Filters, FIR filters and IIR filter realization, and applications. Software implementation of DSP algorithms and practical application of DSP in audio, and video.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Understand the fundamental principles of digital signal processing, and its application areas.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Understand the mathematical tools, such as z-transform, inverse ztransform, z-plane poles and zeros for the analysis of linear time-invariant (LTI) system stability.",
+                                "pos": "PO1, PO2, PO3, PO8"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Apply mathematical concepts such as Discrete Fourier Transform, Inverse discrete Fourier transform and Fast Fourier transform for spectral analysis of digital signals.",
+                                "pos": "PO1, PO2, PO8"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Understand and apply the 1, 2 1, 2, 3, 8 1, 2, 8 1, 2, 3, 4 mathematical principles of difference equation and convolution in the",
+                                "pos": "PO1, PO2, PO3, PO4"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "design and realization of finite impulse response (FIR) and finite impulse response (IIR) filters. Compare the performance of FIR filters and IIR filters and their application in the signal processing of digital signals.",
+                                "pos": "PO1, PO2, PO12"
+                        },
+                        {
+                                "id": "CLO 6",
+                                "desc": "Demonstrate the understanding of the application of digital signal processing for specific use case such as voice and video processing. f)",
+                                "pos": "PO1, PO2, PO12"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction:",
+                        "Week 4-6: Advantages of digital over analogue signal processing, problems of digitization,",
+                        "Week 7-9: overview of application of DSP, basic elements of DSP system.",
+                        "Week 10-12: Digital Processing of analogue signals:",
+                        "Week 13-15: Sampling of analogue signals, sampling theorem, aliasing, quantization, noise, and"
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in B-27 lectures per Week. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "COE522": {
+                "code": "COE 522",
+                "title": "Design and Installation of Electrical and ICT",
+                "semester": "Second Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Two hours",
+                "location": "B04 lectures per Week",
+                "lecturer": "Engr. Dr. J. F. Orimolade 80",
+                "textbooks": [
+                        "Nigerian Electricity Regulatory Commission (Nigerian Electricity Health and Safety Code) Version 1.0 ©2014",
+                        "Institution of Engineering and Technology; Electrical Installation Design Guide, Calculations for Electricians and Designers (IET 2013)"
+                ],
+                "overview": "This course covers the provision of electrical regulatory bodies on health, safety and first-aid in electrical installations. The course also covers electrical installation design, and maintenance for residential and industrial layout using internationally recognized standard specifications. The design principles and installation of telecommunications and associated information and communication (ICT) systems are also covered. Topics covered in the course include Introduction to Health safety and first aid at work in Nigeria. Lighting and Illumination design parameters, Electrical Installation design in domestic, commercial and industry with Earthling and Protection. NCC and FCC codes of practice and standards for Telecommunication design and installation and Computer networking design and installation are topics covered in the course. Preparation of Bill of Engineering Measurement Evaluation. Contract bidding and Consultancy.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Understand the fundamental principles of Electrical Health and safety, installation system design, and its application areas. Analysis of specifications and parameters for residential and industrial illumination, power component sizing, earthling and installation design. Practical implementation of standard",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "design specifications and parameters for residential and industrial illumination, power component sizing, and earthling design.",
+                                "pos": "PO1, PO3"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Understand the fundamental 1, 2 1, 3 1, 2, 3, 4, 5 3, 5, 8 1, 2 1, 3, 4 principles of data communication and general information technology",
+                                "pos": "PO1, PO2, PO3"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "design and applications.",
+                                "pos": "PO4, PO5"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "Understand and apply the fundamental principles of the FCC and NCC code of practice for telecommunication systems and networking design and analysis. Prepare and present Bill of Engineering Measurement Evaluation, Contract bidding and Consultancy f)",
+                                "pos": "PO3, PO5, PO8"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction to Electrical Installation:",
+                        "Week 4-6: 1-2",
+                        "Week 7-9: Introduction to Health and safety at work act in Nigeria. Electrical safety. First aid.",
+                        "Week 10-12: Electricity supply regulations.",
+                        "Week 13-15: Lighting and Illumination:"
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in B04 lectures per Week. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "COE509": {
+                "code": "COE 509",
+                "title": "Microprocessor and Interfacing",
+                "semester": "First Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Two hours",
+                "location": "B2-5 lectures per Week",
+                "lecturer": "Engr. Dr. J. F. Orimolade",
+                "textbooks": [
+                        "Barry B. Brey (2009). The Intel Microprocessors: 8086/8088, 80186/80188, 80286, 80386, 80486 Pentium, Pentium Pro Processor, Pentium II, Pentium, 4, and Core2 with 64-bit Extensions Architecture, Programming, and Interfacing, Eighth Edition. v",
+                        "Giuliano Donzellini, Andrea Mattia Garavagno, (2021). Introduction Microprocessor-Based Systems Design, Springer Nature Switzerland AG a)"
+                ],
+                "overview": "86 to This course covers the basic microprocessor system components, operations and architecture for some typical 8-bit, 16-bit microprocessors (INTEL, MOTOROLA) and their features. It discusses the I/O fundamentals such as interrupt, bus structure and memory access. The course covers multiprocessor configuration, parallel processing and design requirements for microinstructions and instruction repertoire. It addresses the fundamentals of programming model in real mode protected mode with considerations on the microprocessor registers, memory and addressing modes. Aspects of memory interfacing, address decoding, I/O interfacing and Peripheral devices interfacing and Instruction set for assembly language Programming are covered.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Understand the fundamental principles of microprocessor system components, features, and architecture for some 16-bit microprocessors.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Understand the working principles of microprocessor I/O components such as interrupt, bus structure and memory access and their respective operations. Compare the operations of microprocessor programming model in real mode and protected mode for a typical 16-bit Microprocessor",
+                                "pos": "PO1, PO2, PO3"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Understand and apply the 1, 2 and and and and and and 1, 2, 3 6,8 2, 4 programming models to operate on the microprocessor registers, memory and addressing modes Understands the underline design principles of memory interfacing, I/O interfacing, Peripheral devices interfacing and apply same to Motorola 8086 microprocessor chips.",
+                                "pos": "PO6, PO8"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Design of Instruction set for assembly language Programming for selected microprocessor f)",
+                                "pos": "PO2, PO4"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction and fundamental concepts.",
+                        "Week 4-6: Core operations and analytical frameworks.",
+                        "Week 7-9: Advanced modules and system architectures.",
+                        "Week 10-12: Practical design case studies and review.",
+                        "Week 13-15: Revision and comprehensive examinations."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in B2-5 lectures per Week. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "COE520": {
+                "code": "COE 520",
+                "title": "Introduction to Mobile Computing",
+                "semester": "Second Semester",
+                "credits": 2,
+                "contactHours": "Lecture - Two hours",
+                "location": "B04 lectures per Week",
+                "lecturer": "Engr. Dr. J. F. Orimolade 92",
+                "textbooks": [
+                        "ix. Prakash C.Gupta (2014). Data communication and computer network, PHI Learning Private Limited, 2nd Edition. x. Williams Stallings (2014). Data and Computer Communications, Pearson Education Limited, 10th Edition."
+                ],
+                "overview": "The course covers the operating properties of network architecture such as personal Area Network (PANs), Local Area Network (LANs) and Wide Area Network (WANs) in the ad-hoc and Infrastructure mode. Network Physical constraints and limitations, which affects transmission, hand-off and mobility support at the physical/link layers are covered. The course covers basic GSM and GPRS networks structures and protocols architectures. The course also covers an overview of next generation wireless network, mobile IP, problems with routing, quality of service and security.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Understand the fundamental operations of PAN, LAN and WAN in the ad-hoc and infrastructure mode.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Apply the fundamental principles of data communication for the design of information and communication systems and its application areas.",
+                                "pos": "PO1, PO2"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Identify network constraints which limits performance, reduce application Quality of Service (QoS) and user Quality of Experience, and also, how to modify QoS parameters for best user experience",
+                                "pos": "PO2, PO4"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Understand network architecture, 1, 2 1, 2 2, 4 2, 3, 8 1, 3, 8 properties and basic design parameters for 3G, 4G and next generation wireless networks.",
+                                "pos": "PO2, PO3, PO8"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "Understand the principles and applications of mobile IP design, routing, and network security for the next generation wireless networks. f)",
+                                "pos": "PO1, PO3, PO8"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Introduction and fundamental concepts.",
+                        "Week 4-6: Core operations and analytical frameworks.",
+                        "Week 7-9: Advanced modules and system architectures.",
+                        "Week 10-12: Practical design case studies and review.",
+                        "Week 13-15: Revision and comprehensive examinations."
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in B04 lectures per Week. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "COE304": {
+                "code": "COE 304",
+                "title": "Computer Architecture and Organization",
+                "semester": "Second Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Two hours lectures per week",
+                "location": "B0-4",
+                "lecturer": "Engr. Dr. O. T. Ibitoye",
+                "textbooks": [
+                        "Computer Fundamentals: Architecture and Organization, 3rd edition. B. Ram, 1 August 2018. ISBN-10: 812241267X ISBN-13: 978-8122412673",
+                        "Computer Organization and Design 6th Edition. David A. Patterson, January 1, 2021. ISBN-13978-9351073963"
+                ],
+                "overview": "98 Introduction to Parallel Computing: SIMD, MIMD, VLIW, EPIC, Systolic architecture, Interconnection networks (hypercube, shuffle-exchange, mesh, crossbar), Shared memory systems, Cache coherence, Memory models and memory consistency. Superscalar architecture, Branch prediction, Pre-fetching, Speculative execution, multithreaded architecture, scalability, symmetric multiprocessors; and parallel computers.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Illustrate the fundamental principles of Parallel computing and Flynn’s",
+                                "pos": "PO1, PO2, PO6, PO12"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Demonstrate understanding of Systolic architecture and Interconnection networks",
+                                "pos": "PO1, PO2, PO3, PO12"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Demonstrate understanding of Shared memory systems, Cache coherence, Memory models and memory consistency",
+                                "pos": "PO1, PO3, PO10, PO12"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Illustrate various computing and and and and and and 1, 2, 3, 12 1, 3, 10, 12 2, 4, 5, 12 architecture such as; Superscalar architecture, and multithreaded architecture,",
+                                "pos": "PO2, PO4, PO5, PO12"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "Demonstrate understanding of Multiprocessor and Parallel computers",
+                                "pos": "PO1, PO7, PO8, PO12"
+                        },
+                        {
+                                "id": "CLO 6",
+                                "desc": "Illustrate microcomputers and multicomputer systems 1, 7, 8, 12 1, 9, 11, 12 f)",
+                                "pos": "PO1, PO9, PO11, PO12"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Principles of Parallel computing and Flynn’s taxonomy",
+                        "Week 4-6: 1-2",
+                        "Week 7-9: Systolic architecture and Interconnection networks",
+                        "Week 10-12: 3-4",
+                        "Week 13-15: Shared memory systems, Cache coherence, Memory models and"
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in B0-4. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "COE506": {
+                "code": "COE 506",
+                "title": "Digital Systems Design with VHDL",
+                "semester": "Second Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Two hours per week, Practical - Three hours per week",
+                "location": "B0-4 Hours: lectures per Week",
+                "lecturer": "Engr. Dr. O. T. Ibitoye and Engr. O. Imahe",
+                "textbooks": [
+                        "Introduction to VLSI design flow. By Sneh Saurabh. Cambridge, 2023.",
+                        "Free Range VHDL. B. Mealy and F. Tappero, 2023."
+                ],
+                "overview": "This course covers the fundamental concepts of Finite State Machine: definition, mealy and Moore models, state diagram, state table, transition table. Sequential circuits design using flip-flops, asynchronous, and synchronous circuit design. Algorithm State Machine. Design examples and exercises. Structured Design: Design constructs, Design Levels, Geometrybased interchange formats, Computer aided electronic system design tools, Schematic 104 circuit capture, Hardware description languages, Design process (simulation, synthesis), Structural design decomposition. Introduction to VHDL: VHDL language abstractions, Design hierarchies, VHDL component, Lexical description, VHDL source file, Data types, Data objects, Language statements, Concurrent VHDL, Sequential VHDL, Advanced features of VHDL (library, package and subprograms). Structural level modelling, RegisterTransfer level modelling, FSM with datapath level modelling, Algorithmic level modelling. Introduction of ASIC, Types of ASIC, ASIC design process, Standard cell ASIC synthesis, FPGA Design Paradigm, FPGA synthesis, FPGA/CPLD Architectures. VHDL Design: Topdown design flow, Verification, simulation alternatives, simulation speed, Formal verification, Recommendations for verification, Writing RTL VHDL code for synthesis, topdown design with FPGA. VHDL synthesis, optimization and mapping, constraints, technology library, delay calculation, synthesis tool, synthesis directives. Computer-aided design of logic circuits. 105",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Develop combinational and sequential circuits with VHDL; utilizing various data types and objects, language statements, and libraries and packages.",
+                                "pos": "PO1, PO2, PO11"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Demonstrate an understanding of asynchronous and synchronous",
+                                "pos": "PO2, PO3, PO6, PO10"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "design with VHDL.",
+                                "pos": "PO1, PO4, PO6"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Design finite state machines, and differentiate between Mealy and Moore finite state machines. Demonstrate understanding of structured",
+                                "pos": "PO1, PO3, PO4"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "design architecture to build larger digital systems/modules.",
+                                "pos": "PO5, PO9, PO12"
+                        },
+                        {
+                                "id": "CLO 6",
+                                "desc": "Demonstrate an understanding 4/5 1, 2, 11 and and and and and and 2, 3, 6, 10 4/5 1, 4, 6 1, 3, 4 of various VHDL models, their key components and use-cases.",
+                                "pos": "PO5, PO8"
+                        },
+                        {
+                                "id": "CLO 7",
+                                "desc": "Propose Application Specific Integrated Circuits (ASIC) and Field-Programmable Gate Arrays (FPGA). Design ASIC and FPGA using various programming tools.",
+                                "pos": "PO1, PO2, PO12"
+                        },
+                        {
+                                "id": "CLO 8",
+                                "desc": "Evaluate VHDL design, synthesis and optimization using various simulation and verification tools. 4/5 5, 9, 12 5, 8 f)",
+                                "pos": "PO1, PO2, PO12"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: General digital system concept",
+                        "Week 4-6: Introduction to VHDL",
+                        "Week 7-9: VHDL language abstractions, Design hierarchies, VHDL",
+                        "Week 10-12: 3-6",
+                        "Week 13-15: component, Lexical description, VHDL source file, Data types,"
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in B0-4 Hours: lectures per Week. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "COE505": {
+                "code": "COE 505",
+                "title": "Software Engineering",
+                "semester": "First Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Two hours per week, Practical - Three hours per week",
+                "location": "B0-4",
+                "lecturer": "Engr. Dr. O. T. Ibitoye Location: B0-4",
+                "textbooks": [
+                        "Software Engineering, 2nd Edition. ISBN10: 1260721701 | ISBN13: 9781260721706. David Kung. Published by McGraw Hill (February 2nd 2023).",
+                        "Software Engineering, 10th edition. ISBN13: 9780137503148. By Ian Sommerville. Published by Pearson (July 14th 2021).",
+                        "Software Engineering: A Practitioner's Approach | 9th Edition Paperback. Bruce Maxim– 17 July 2023."
+                ],
+                "overview": "This course covers the fundamental concepts of software engineering. Topics include software design concepts and principles, design of software quality, abstraction, refinement, modularity, software architecture, control hierarchy, structural partitioning, and data structure. Design methodology, data architecture, transformation mapping. Post processing design; optimization: interface design, foundations of human-computer interaction: Human centered development and evaluation. Procedural design: structure 112 programming, graphical notation, tabular notation, Program Design Language (PDL). Object-oriented design: concept of patterns and the use of APIs; modeling tools such as class diagrams, CRC cards, and UML use cases. Software: reuse and re-engineering. Client/server software development. Computer aided software development. An introduction to the concepts underlying the design of human-computer interaction: usability and affordances, systemic design methods, user conceptual models and interface metaphors, human cognitive and physical ergonomics, information and inter activity structures, design tool and environment. Structured around a set of case studies in which notable interface designs, and/or projects are analyzed as illustrative of underlying principles. Discussion of cases and interface analysis and design exercises. 113",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Analyze and specify software requirements of a software development project.",
+                                "pos": "PO1, PO11"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Identify, interpret and solve software engineering problems, including the specification,",
+                                "pos": "PO1, PO5"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "design, implementation, and testing of software systems that meet specification, performance, maintenance and quality requirements.",
+                                "pos": "PO2, PO3, PO6, PO10"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Propose Unified Modeling Language and Program Design Language in software specification documents. Interpret the concept of object- 1, 11 and and and and and and 1, 5 2, 3, 6, 10 4/5 1, 4 3, 4 oriented design, human computer interaction and the",
+                                "pos": "PO1, PO4"
+                        },
+                        {
+                                "id": "CLO 5",
+                                "desc": "use of application programming interfaces.",
+                                "pos": "PO3, PO4"
+                        },
+                        {
+                                "id": "CLO 6",
+                                "desc": "Develop and deploy a medium scale software project 4/",
+                                "pos": "PO5, PO9, PO12"
+                        },
+                        {
+                                "id": "CLO 7",
+                                "desc": "Evaluate the effect of prospective solutions to software engineering problems in a global society, via the knowledge of current issues and merging software engineering trends and techniques. 4/5 5, 9, 12 7, 11, 12 f)",
+                                "pos": "PO7, PO11, PO12"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Software Design",
+                        "Week 4-6: Software Quality Guidelines",
+                        "Week 7-9: Software Quality Attributes",
+                        "Week 10-12: Software Design Concepts",
+                        "Week 13-15: 1-2"
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in B0-4. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        },
+        "COE405": {
+                "code": "COE 405",
+                "title": "Numerical Computations",
+                "semester": "First Semester",
+                "credits": 3,
+                "contactHours": "Lecture - Two hours per week, Practical - Three hours per week",
+                "location": "C3-6",
+                "lecturer": "Engr. Dr. O. T. Ibitoye Location: C3-6",
+                "textbooks": [
+                        "Introduction to Numerical Methods and MATLAP Programming for Engineers. Todd Young and Martin J. Mohlenkamp. Department of Mathematics Ohio University Athens, OH 45701 youngt@ohio.ed, December 13, 2023.",
+                        "An Introduction to Numerical Methods and Analysis. James F. Epperson. John Wiley & Sons, 10 Aug 2021."
+                ],
+                "overview": "This course covers the fundamental concepts of numerical analysis with specific emphasis on the various numerical methods and tools essential for analyzing and solving engineering problems with minimal errors. Topics include errors in numerical analysis, convergence theory of computational solution to problem: numerical algorithm formulation and design, numerical software systems. Iterative solutions of non-linear systems: (Newton’s Method). Numerical solutions of linear systems. Numerical computation of Eigen values and Eigen vectors. Curve fitting; function approximation. Numerical differentiation and integration (Simpson’s Rule etc.). Explicit and implicit 120 methods. Differential equation (Euler’s method etc.). Numerical integration and differentiation. Linear algebra. Finite differences. Introduction to the use of Octave, MATLAB or LabVIEW in numerical computation and engineering applications.",
+                "prerequisites": "Nil",
+                "clos": [
+                        {
+                                "id": "CLO 1",
+                                "desc": "Propose the convergence theory of computational solution to engineering problems",
+                                "pos": "PO1, PO2, PO6"
+                        },
+                        {
+                                "id": "CLO 2",
+                                "desc": "Design numerical algorithms using numerical software systems Compare various numerical 1, 2, 6 and and and and and and 4/5 1, 2, 3 1, 3, 10, 12 1, 3, 4, 5 methods such as Newton’s method, numerical computation of Eigen values and Eigen vectors, Simpson’s rules and Euler’s method",
+                                "pos": "PO1, PO2, PO3"
+                        },
+                        {
+                                "id": "CLO 3",
+                                "desc": "Analyze the concept of numerical integration and differentiation",
+                                "pos": "PO1, PO3, PO10, PO12"
+                        },
+                        {
+                                "id": "CLO 4",
+                                "desc": "Develop various models using MATLAB for numerical computation and engineering applications 1, 7, 8, 12 4/5 1, 9, 11, 12 f)",
+                                "pos": "PO1, PO3, PO4, PO5"
+                        }
+                ],
+                "outlines": [
+                        "Week 1-3: Analysis of errors in numerical systems",
+                        "Week 4-6: 1-2",
+                        "Week 7-9: Convergence theory of computational solution to engineering",
+                        "Week 10-12: problems",
+                        "Week 13-15: 3-4"
+                ],
+                "lecturePlans": "Lectures hold on scheduled times per week in C3-6. Mandatory practical and tutorial sessions commence in Week 3, mapping practical observations to theoretical calculations. Mid-semester tests are held in Week 8."
+        }
+},
+mappings: [
+        {
+                "course": "COE 302",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 3,
+                "po5": 2,
+                "po6": 2,
+                "po7": 1,
+                "po8": 2,
+                "po9": 1,
+                "po10": 1,
+                "po11": 1,
+                "po12": 1
+        },
+        {
+                "course": "COE 304",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 2,
+                "po5": 2,
+                "po6": 2,
+                "po7": 2,
+                "po8": 2,
+                "po9": 2,
+                "po10": 2,
+                "po11": 2,
+                "po12": 3
+        },
+        {
+                "course": "COE 405",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 2,
+                "po5": 2,
+                "po6": 2,
+                "po7": 1,
+                "po8": 1,
+                "po9": 1,
+                "po10": 2,
+                "po11": 1,
+                "po12": 2
+        },
+        {
+                "course": "COE 505",
+                "po1": 3,
+                "po2": 2,
+                "po3": 3,
+                "po4": 3,
+                "po5": 3,
+                "po6": 2,
+                "po7": 2,
+                "po8": 1,
+                "po9": 2,
+                "po10": 2,
+                "po11": 3,
+                "po12": 3
+        },
+        {
+                "course": "COE 506",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 3,
+                "po5": 3,
+                "po6": 3,
+                "po7": 1,
+                "po8": 2,
+                "po9": 2,
+                "po10": 2,
+                "po11": 2,
+                "po12": 3
+        },
+        {
+                "course": "COE 509",
+                "po1": 3,
+                "po2": 3,
+                "po3": 2,
+                "po4": 2,
+                "po5": 1,
+                "po6": 2,
+                "po7": 1,
+                "po8": 2,
+                "po9": 1,
+                "po10": 1,
+                "po11": 1,
+                "po12": 1
+        },
+        {
+                "course": "COE 511",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 2,
+                "po5": 1,
+                "po6": 1,
+                "po7": 1,
+                "po8": 3,
+                "po9": 1,
+                "po10": 1,
+                "po11": 1,
+                "po12": 3
+        },
+        {
+                "course": "COE 512",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 2,
+                "po5": 1,
+                "po6": 1,
+                "po7": 1,
+                "po8": 2,
+                "po9": 1,
+                "po10": 2,
+                "po11": 2,
+                "po12": 2
+        },
+        {
+                "course": "COE 517",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 3,
+                "po5": 3,
+                "po6": 1,
+                "po7": 1,
+                "po8": 1,
+                "po9": 1,
+                "po10": 1,
+                "po11": 1,
+                "po12": 1
+        },
+        {
+                "course": "COE 519",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 3,
+                "po5": 3,
+                "po6": 1,
+                "po7": 1,
+                "po8": 1,
+                "po9": 1,
+                "po10": 1,
+                "po11": 1,
+                "po12": 1
+        },
+        {
+                "course": "COE 520",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 2,
+                "po5": 1,
+                "po6": 1,
+                "po7": 1,
+                "po8": 3,
+                "po9": 1,
+                "po10": 1,
+                "po11": 1,
+                "po12": 1
+        },
+        {
+                "course": "COE 522",
+                "po1": 3,
+                "po2": 3,
+                "po3": 3,
+                "po4": 2,
+                "po5": 3,
+                "po6": 1,
+                "po7": 1,
+                "po8": 2,
+                "po9": 1,
+                "po10": 1,
+                "po11": 1,
+                "po12": 1
+        }
+]

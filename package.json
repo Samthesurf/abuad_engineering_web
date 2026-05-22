@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cf:deploy:preview": "npm run build && wrangler pages deploy dist --project-name=abuadengineering",
+    "cf:deploy:prod": "npm run build && wrangler pages deploy dist --project-name=abuadengineering --branch=main"
   },
   "dependencies": {
     "react": "^19.2.6",
