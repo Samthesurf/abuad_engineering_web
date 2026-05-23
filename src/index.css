@@ -889,6 +889,22 @@ body {
   border-radius: var(--radius-lg);
 }
 
+.provost-avatar {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ffffff;
+  box-shadow: var(--shadow-md);
+  background-color: var(--bg-card);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.provost-avatar:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-lg);
+}
+
 .avatar-placeholder {
   width: 120px;
   height: 120px;
