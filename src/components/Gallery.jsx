@@ -101,8 +101,7 @@ export default function Gallery() {
   return (
     <div className="content-panel">
       <div className="content-panel-header">
-        <div className="content-panel-tag">Media Gallery</div>
-        <h2 className="content-panel-title">Moments & Highlights</h2>
+        <h2 className="content-panel-title">Moments &amp; Highlights</h2>
         <p className="content-panel-subtitle">
           A collection of pictures highlighting various activities across the College of Engineering.
         </p>
