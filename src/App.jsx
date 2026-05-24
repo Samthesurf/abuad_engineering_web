@@ -11,6 +11,7 @@ import FloatingActionButton from './components/FloatingActionButton'
 import WelcomeHero from './components/WelcomeHero'
 import ProvostDesk from './components/ProvostDesk'
 import GeneralInfo from './components/GeneralInfo'
+import Gallery from './components/Gallery'
 
 // OBE components
 import DeptProfile from './components/obe/DeptProfile'
@@ -163,6 +164,11 @@ function App() {
           handleSectionClick={handleSectionClick}
         />
       );
+    }
+
+    // Gallery section
+    if (activeSection === 'gallery') {
+      return <Gallery />;
     }
 
     // OBE sections

@@ -19,7 +19,7 @@ export default function ProvostDesk({ handleSectionClick }) {
           <div className="provost-role">Office of the Provost</div>
           <div className="provost-subtitle">College of Engineering, ABUAD</div>
           <p className="provost-text">
-            "Greetings to all stakeholders in Engineering Education, within and outside Afe Babalola University. Our College of Engineering maintains the absolute highest benchmark of technical training and Outcomes-Based Education (OBE) to equip you with standard professional expertise, leadership values, and research competence. It is my pleasure for you to utilize this interactive platform to explore our course learning maps."
+            "Greetings to all stakeholders in Engineering Education, within and outside Afe Babalola University. Our College of Engineering maintains the absolute highest benchmark of technical training and Outcomes-Based Education (OBE) to equip our students with standard professional expertise, leadership values, and research competence. It is my pleasure for you to utilize this interactive platform to explore our course learning maps."
           </p>
         </div>
       </div>

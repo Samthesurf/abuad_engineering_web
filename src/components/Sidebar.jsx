@@ -60,6 +60,11 @@ const icons = {
       <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
     </svg>
   ),
+  gallery: (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>
+    </svg>
+  ),
 };
 
 const hodItems = [
@@ -221,6 +226,19 @@ export default function Sidebar({
               <span className="sidebar-item-hint">Departments & curriculum</span>
             </div>
             <span className="sidebar-chevron">{activeSection === 'obe' ? '▼' : '▶'}</span>
+          </div>
+
+          {/* Gallery */}
+          <div
+            className={`sidebar-item ${activeSection === 'gallery' ? 'active' : ''}`}
+            onClick={() => handleSectionClick('gallery')}
+            id="sidebar-gallery"
+          >
+            <div className="sidebar-item-icon">{icons.gallery}</div>
+            <div className="sidebar-item-text">
+              <span className="sidebar-item-label">Media Gallery</span>
+              <span className="sidebar-item-hint">Photos & events</span>
+            </div>
           </div>
         </div>
 
