@@ -83,6 +83,6 @@ npm run cf:deploy:prod
 
 ## Why this project matters
 
-The interesting work here is not a complicated backend. It is the translation from institutional material into a structure that is easier to understand, browse, and maintain.
+The interesting work here is the translation from institutional material into a structure that is easier to understand, browse, and maintain.
 
 A student should be able to move from a department profile to a course, from that course to its CLOs, and then to the outcomes it supports. An administrator should be able to see the logic behind the OBE material instead of searching through unrelated files. The README is now describing that journey because the application itself is built around it.
