@@ -54,7 +54,7 @@ export const collegeData = {
     "abbreviation": "B.Eng. Computer Engineering",
     "duration": "Five (5) Years",
     "hod": "Engr. Dr. Adedayo Olukayode OJO MNSE, R.Eng., MIAENG (COREN: R33,712)",
-    "history": "Established in September 2010 alongside three other departments within the College of Engineering, ABUAD. The B.Eng. in Computer Engineering programme was pioneered by esteemed professors including Professor I. E. OWOLABI and Professor OLOWOLAFE. They successfully led the programme to outstanding heights, notably winning prestigious medals at the Microsoft Imagine Cup global student competition event held in the United States. Grounded in basic sciences, mathematics, and advanced computing principles, the program balances engineering aesthetics, professional ethics, and hands-on lab experimentation.",
+    "history": "Established in September 2010 alongside three other departments within the College of Engineering, the Electrical/Electronics and Computer Engineering department proudly offers robust programs, one of which is the B.Eng. degree in Computer Engineering. The pioneering professors of the programme include Professor I. E. OWOLABI and Professor OLOWOLAFE who led the programme to amiable heights, including medals at the Microsoft Imagine Cup global competition event held in USA. This five-year program is grounded in a strong foundation of mathematics, basic sciences, general studies, and specialized engineering courses, designed to foster both technical expertise and ethical responsibility. Our commitment to integrity is woven into every facet of our academic culture. We emphasize ethical engineering practices, encouraging students to uphold honesty, accountability, and professionalism in their work. Our seasoned staff members are equipped with diverse specializations, bringing a wealth of expertise to the classroom, thereby guiding students toward academic excellence and principled innovation. The programme prioritizes hands-on training to prepare students for real-world challenges. Our well-equipped laboratories, staffed by skilled technologists, provide practical learning environments where students engage in experiments, projects, and simulations to deepen their technical skills.",
     "philosophy": "The programme strongly believes in the production of graduates who appreciate the value of the dignity of labor and who are problem solvers, self-reliant, employers of labor, highly productive, and globally relevant in every sphere of human endeavor.",
     "vision": "To be a world-class center of excellence in Computer Engineering education, fostering academic innovation, ethical leadership, and holistic development in character, research, and vocational competence.",
     "mission": "To produce highly competent Computer Engineers equipped with strong technical expertise, practical skills, and professional ethics through rigorous academic training, hands-on experience, and the development of innovative solutions to global challenges.",
@@ -84,37 +84,37 @@ export const collegeData = {
       {
         "id": "PO 1",
         "name": "Engineering Knowledge",
-        "desc": "Apply knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of developmental and complex engineering problems."
+        "desc": "Apply knowledge of mathematics, science, engineering fundamentals and computer engineering to the solution of developmental and complex engineering problems."
       },
       {
         "id": "PO 2",
         "name": "Problem Analysis",
-        "desc": "Identify, formulate, research literature, and analyze developmental and complex engineering problems reaching substantiated conclusions using first principles."
+        "desc": "Identify, formulate, research literature, and analyze developmental and complex computer engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences and engineering sciences."
       },
       {
         "id": "PO 3",
-        "name": "Design/Development",
-        "desc": "Proffer solutions for developmental or complex engineering problems and design systems, components or processes that meet specified needs with appropriate safety and environmental considerations."
+        "name": "Design/Development of Solutions",
+        "desc": "Proffer solutions for developmental or complex computer engineering problems and design systems, components or processes that meet specified needs with appropriate consideration for public health and safety, cultural, societal, and environmental considerations."
       },
       {
         "id": "PO 4",
         "name": "Investigation",
-        "desc": "Conduct investigation into complex problems using research-based knowledge and research methods including experiments, analysis, and data synthesis."
+        "desc": "Conduct investigation into developmental or complex computer engineering problems using research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of information to provide valid conclusions."
       },
       {
         "id": "PO 5",
         "name": "Modern Tool Usage",
-        "desc": "Create, select, and apply appropriate techniques, resources, and modern engineering and ICT tools, including prediction, modeling, and optimization with an understanding of the limitations."
+        "desc": "Create, select, and apply appropriate techniques, resources and modern engineering and ICT tools, including prediction, modeling, and optimization to developmental and complex computer engineering activities, with an understanding of the limitations."
       },
       {
         "id": "PO 6",
-        "name": "Engineer & Society",
-        "desc": "Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues relevant to professional engineering practice."
+        "name": "The Engineer and Society",
+        "desc": "Apply reasoning informed by contextual knowledge including Humanities and Social Sciences to assess societal, health, safety, legal and cultural issues, and the consequent responsibilities relevant to professional computer engineering practice."
       },
       {
         "id": "PO 7",
         "name": "Environment & Sustainability",
-        "desc": "Understand the impact of professional engineering solutions in societal and environmental contexts and demonstrate knowledge of and need for sustainable development."
+        "desc": "Understand the impact of professional computer engineering solutions in societal and environmental contexts and demonstrate knowledge of and need for sustainable development."
       },
       {
         "id": "PO 8",
@@ -129,12 +129,12 @@ export const collegeData = {
       {
         "id": "PO 10",
         "name": "Communication",
-        "desc": "Communicate effectively on complex engineering activities with the engineering community and with society at large, write effective reports, and make presentations."
+        "desc": "Communicate effectively on developmental or complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."
       },
       {
         "id": "PO 11",
         "name": "Project Management",
-        "desc": "Demonstrate knowledge and understanding of engineering, management, and financial principles to manage projects as a member or leader."
+        "desc": "Demonstrate knowledge and understanding of computer engineering, management and financial principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multi-disciplinary environments."
       },
       {
         "id": "PO 12",
@@ -2759,7 +2759,7 @@ export const collegeData = {
     "abbreviation": "B.Eng. Electrical and Electronics Engineering",
     "duration": "Five (5) Years",
     "hod": "Engr. Dr. Adedayo Olukayode OJO MNSE, R.Eng., MIAENG (COREN: R33,712)",
-    "history": "Established in September 2010 alongside three other departments within the College of Engineering, ABUAD. The B.Eng. in Electrical and Electronics Engineering programme was pioneered by esteemed professors including Professor I. E. OWOLABI and Professor OLOWOLAFE. They successfully led the programme to outstanding heights, notably winning prestigious medals at the Microsoft Imagine Cup global student competition event held in the United States. The curriculum provides solid training in electromagnetic waves, energy conversion, electric machines, analogue electronics, power grids, and sustainable energy.",
+    "history": "Established in September 2010 alongside three other departments within the College of Engineering, the Electrical/Electronics and Computer Engineering department proudly offers robust programs, one of which is the B.Eng. degree in Electrical/Electronics Engineering. The pioneering professors of the programme include Professor I. E. OWOLABI and Professor OLOWOLAFE who led the programme to amiable heights, including medals at the Microsoft Imagine Cup global competition event held in USA. This five-year program is grounded in a strong foundation of mathematics, basic sciences, general studies, and specialized engineering courses, designed to foster both technical expertise and ethical responsibility. Our commitment to integrity is woven into every facet of our academic culture. We emphasize ethical engineering practices, encouraging students to uphold honesty, accountability, and professionalism in their work. Our seasoned staff members are equipped with diverse specializations, bringing a wealth of expertise to the classroom, thereby guiding students toward academic excellence and principled innovation. The programme prioritizes hands-on training to prepare students for real-world challenges. Our well-equipped laboratories, staffed by skilled technologists, provide practical learning environments where students engage in experiments, projects, and simulations to deepen their technical skills.",
     "philosophy": "The programme strongly believes in the production of graduates who appreciate the value of the dignity of labor and who are problem solvers, self-reliant, employers of labor, highly productive, and globally relevant in every sphere of human endeavor.",
     "vision": "To be a world-class center of excellence in Electrical and Electronic Engineering education, fostering academic innovation, ethical leadership, and holistic development in character, research, and vocational competence.",
     "mission": "To produce highly competent Electrical and Electronic Engineers equipped with strong technical expertise, practical skills, and professional ethics through rigorous academic training, hands-on experience, and the development of innovative solutions to global challenges.",
@@ -2789,32 +2789,32 @@ export const collegeData = {
       {
         "id": "PO 1",
         "name": "Engineering Knowledge",
-        "desc": "Apply knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of developmental and complex engineering problems."
+        "desc": "Apply knowledge of mathematics, science, engineering fundamentals and electrical/electronics engineering to the solution of developmental and complex engineering problems."
       },
       {
         "id": "PO 2",
         "name": "Problem Analysis",
-        "desc": "Identify, formulate, research literature, and analyze developmental and complex engineering problems reaching substantiated conclusions using first principles."
+        "desc": "Identify, formulate, research literature, and analyze developmental and complex electrical/electronics engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences and engineering sciences."
       },
       {
         "id": "PO 3",
-        "name": "Design/Development",
-        "desc": "Proffer solutions for developmental or complex engineering problems and design systems, components or processes that meet specified needs with appropriate safety and environmental considerations."
+        "name": "Design/Development of Solutions",
+        "desc": "Proffer solutions for developmental or complex engineering problems and design systems, components or processes that meet specified needs with appropriate consideration for public health and safety, cultural, societal, and environmental considerations."
       },
       {
         "id": "PO 4",
         "name": "Investigation",
-        "desc": "Conduct investigation into complex problems using research-based knowledge and research methods including experiments, analysis, and data synthesis."
+        "desc": "Conduct investigation into developmental or complex problems using research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of information to provide valid conclusions."
       },
       {
         "id": "PO 5",
         "name": "Modern Tool Usage",
-        "desc": "Create, select, and apply appropriate techniques, resources, and modern engineering and ICT tools, including prediction, modeling, and optimization with an understanding of the limitations."
+        "desc": "Create, select, and apply appropriate techniques, resources and modern engineering and ICT tools, including prediction, modeling, and optimization to developmental and complex engineering activities, with an understanding of the limitations."
       },
       {
         "id": "PO 6",
-        "name": "Engineer & Society",
-        "desc": "Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues relevant to professional engineering practice."
+        "name": "The Engineer and Society",
+        "desc": "Apply reasoning informed by contextual knowledge including Humanities and Social Sciences to assess societal, health, safety, legal and cultural issues, and the consequent responsibilities relevant to professional electrical/electronics engineering practice."
       },
       {
         "id": "PO 7",
@@ -2834,12 +2834,12 @@ export const collegeData = {
       {
         "id": "PO 10",
         "name": "Communication",
-        "desc": "Communicate effectively on complex engineering activities with the engineering community and with society at large, write effective reports, and make presentations."
+        "desc": "Communicate effectively on developmental or complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."
       },
       {
         "id": "PO 11",
         "name": "Project Management",
-        "desc": "Demonstrate knowledge and understanding of engineering, management, and financial principles to manage projects as a member or leader."
+        "desc": "Demonstrate knowledge and understanding of electrical/electronics engineering, management and financial principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multi-disciplinary environments."
       },
       {
         "id": "PO 12",
