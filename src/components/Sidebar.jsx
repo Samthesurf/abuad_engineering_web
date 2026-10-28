@@ -1,4 +1,5 @@
 import SearchBar from './SearchBar'
+import { OBE_SUBSECTIONS } from '../obeSubsections'
 
 // SVG icons for sidebar items
 const icons = {
@@ -74,19 +75,13 @@ const icons = {
   ),
 };
 
-const hodItems = [
-  { key: 'history', label: 'Programme History', hint: 'Founding & milestones', icon: icons.history },
-  { key: 'objectives', label: 'Objectives & Outcomes', hint: 'PEOs, POs & philosophy', icon: icons.objectives },
-  { key: 'handbooks', label: 'Handbooks & Regulations', hint: 'Student & lab guides', icon: icons.handbooks },
-];
+const hodItems = OBE_SUBSECTIONS.filter((s) => s.group === 'hod').map((s) => ({
+  key: s.key, label: s.label, hint: s.hint, icon: icons[s.key],
+}));
 
-const staffItems = [
-  { key: 'course_info', label: 'Course Information', hint: 'Credits, CLOs & compacts', icon: icons.course_info },
-  { key: 'outlines', label: 'Course Outlines', hint: 'Weekly topic breakdown', icon: icons.outlines },
-  { key: 'lecture_plans', label: 'Lecture Plans', hint: 'Schedules & assessments', icon: icons.lecture_plans },
-  { key: 'mapping', label: 'Mapping to POs', hint: 'OBE emphasis matrix', icon: icons.mapping },
-  { key: 'clo', label: 'CLO Attainment', hint: 'Scores to dept report', icon: icons.clo },
-];
+const staffItems = OBE_SUBSECTIONS.filter((s) => s.group === 'staff').map((s) => ({
+  key: s.key, label: s.label, hint: s.hint, icon: icons[s.key],
+}));
 
 export default function Sidebar({
   activeSection,

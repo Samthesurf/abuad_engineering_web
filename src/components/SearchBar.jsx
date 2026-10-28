@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { collegeData } from '../collegeData';
+import { OBE_SUBSECTIONS } from '../obeSubsections';
 import { navigate as hashNavigate, getFirstCourse } from '../hooks/useHashRoute';
 
 // SVG icons
@@ -109,13 +110,21 @@ function buildSearchIndex() {
       route: { section: 'obe', dept, subSection: null, course: null },
     });
 
-    // History
-    items.push({
-      title: `${deptLabels[dept]} — Programme History`,
-      subtitle: 'Founding, milestones & historical background',
-      category: 'section',
-      keywords: `${dept} history programme founding milestones ${d.history || ''}`,
-      route: { section: 'obe', dept, subSection: 'history', course: null },
+    // OBE sub-section pages (shared config: sidebar + search stay in sync automatically)
+    OBE_SUBSECTIONS.forEach((sub) => {
+      const extra = sub.key === 'history' && d.history ? ` ${d.history}` : '';
+      items.push({
+        title: `${sub.label} — ${deptLabels[dept]}`,
+        subtitle: sub.blurb,
+        category: 'section',
+        keywords: `${dept} ${sub.key} ${sub.label} ${sub.keywords}${extra}`,
+        route: {
+          section: 'obe',
+          dept,
+          subSection: sub.key,
+          course: sub.courseSpecific ? getFirstCourse(dept) : null,
+        },
+      });
     });
 
     // PEOs
@@ -156,15 +165,6 @@ function buildSearchIndex() {
         });
       });
     }
-
-    // OBE Mapping page
-    items.push({
-      title: `OBE Mapping — ${deptLabels[dept]}`,
-      subtitle: 'PO-to-CLO emphasis matrix for all courses',
-      category: 'section',
-      keywords: `${dept} obe mapping matrix emphasis po clo`,
-      route: { section: 'obe', dept, subSection: 'mapping', course: null },
-    });
 
     // Courses
     if (d.courses) {
