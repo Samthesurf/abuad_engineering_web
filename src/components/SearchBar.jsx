@@ -183,6 +183,18 @@ function buildSearchIndex() {
   return items;
 }
 
+// Category boost: when the query matches a page title directly, that page should
+// outrank courses that merely mention the term in their description text.
+const CATEGORY_BOOST = {
+  section: 4,
+  department: 4,
+  info: 2,
+  handbook: 2,
+  peo: 2,
+  po: 2,
+  course: 0,
+};
+
 // Simple fuzzy matching: split query into tokens, check all tokens present in target
 function matchScore(query, item) {
   const q = query.toLowerCase().trim();
@@ -208,7 +220,10 @@ function matchScore(query, item) {
   }
 
   // Boost for exact-ish matches (query is a substring of title)
-  if (titleLower.includes(q)) titleBoost += 5;
+  if (titleLower.includes(q)) {
+    titleBoost += 5;
+    titleBoost += CATEGORY_BOOST[item.category] || 0;
+  }
 
   return (matched / tokens.length) * 10 + titleBoost;
 }
