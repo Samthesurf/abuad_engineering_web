@@ -40,9 +40,18 @@ const cloKey = (clo) => {
 };
 
 // Per-course attainment: for each CLO, obtained / sum-of-max * 100.
+// Rows repeating the same student + question + CLO are duplicates (e.g. pasted
+// twice); only the latest entry counts. Returns the merged-away count too.
 const courseStats = (rows) => {
-  const byClo = {};
+  const seen = new Map();
+  let duplicates = 0;
   rows.forEach((r) => {
+    const key = `${(r.student || '').trim().toLowerCase()}|${(r.question || '').trim().toLowerCase()}|${(r.clo || '').trim().toLowerCase()}`;
+    if (seen.has(key)) duplicates += 1;
+    seen.set(key, r);
+  });
+  const byClo = {};
+  [...seen.values()].forEach((r) => {
     const clo = (r.clo || '').trim();
     const s = num(r.score);
     const m = num(r.max);
@@ -61,7 +70,7 @@ const courseStats = (rows) => {
   const avg = table.length > 0
     ? table.reduce((a, t) => a + t.pct, 0) / table.length
     : null;
-  return { table, avg };
+  return { table, avg, duplicates };
 };
 
 const fmt = (v) => (v === null || v === undefined ? '--' : `${v.toFixed(2)}%`);
@@ -164,7 +173,7 @@ export default function CloAttainment({ deptData, activeDept, handleSectionClick
           </div>
         )}
 
-        {stats.map(({ course, table, avg }) => (
+        {stats.map(({ course, table, avg, duplicates }) => (
           <div className="info-section" key={course.id}>
             <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
               <input
@@ -262,6 +271,12 @@ export default function CloAttainment({ deptData, activeDept, handleSectionClick
               </button>
             </details>
 
+            {duplicates > 0 && (
+              <p className="mapping-note" style={{ marginTop: '10px' }}>
+                {duplicates} duplicate row{duplicates === 1 ? '' : 's'} merged (same student, question
+                and CLO entered more than once, latest entry kept).
+              </p>
+            )}
             {table.length > 0 && (
               <div className="mapping-table-wrapper" style={{ marginTop: '12px' }}>
                 <table className="mapping-table">
