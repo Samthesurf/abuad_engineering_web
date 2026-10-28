@@ -1,3 +1,5 @@
+import SearchBar from './SearchBar'
+
 // SVG icons for sidebar items
 const icons = {
   provost: (
@@ -190,6 +192,11 @@ export default function Sidebar({
         onClick={() => setIsMobileMenuOpen(false)}
       />
       <aside className={`sidebar ${isMobileMenuOpen ? 'mobile-open' : ''}`} id="sidebar-nav">
+        {/* Mobile-only search bar at top of sidebar */}
+        <div className="sidebar-search-mobile">
+          <SearchBar onNavigate={() => setIsMobileMenuOpen(false)} />
+        </div>
+
         {/* Primary navigation */}
         <div className="sidebar-section">
           <div className="sidebar-section-label">Academic Portal</div>

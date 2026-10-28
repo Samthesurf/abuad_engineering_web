@@ -68,11 +68,11 @@ general_info = {
 }
 
 computer_peos = [
-    { "id": "PEO 1", "desc": "To produce highly skilled and competent Computer engineers that will contribute to academia, industrial and professional Engineering practice." },
-    { "id": "PEO 2", "desc": "To produce proficient, self-reliant, and excellent Computer Engineers equipped with strong technical skills, a solid understanding of fundamental concepts, and the ability to address contemporary challenges." },
-    { "id": "PEO 3", "desc": "To produce graduates who will actively engage in continuous professional development and lifelong learning, pursue advanced studies, and obtain relevant certifications, remaining relevant in a rapid industry." },
-    { "id": "PEO 4", "desc": "To produce graduates who can provide practical and cost-effective solutions to real-world problems by applying modeling knowledge, innovative thinking, and entrepreneurial skills." },
-    { "id": "PEO 5", "desc": "To produce graduates that will uphold ethical standards, demonstrate integrity, leadership, and practice Computer engineering responsibly in compliance with national and international professional codes." }
+    { "id": "PEO 1", "desc": "To produce highly skilled and socially relevant computer engineering graduates who achieve excellence in academics and contribute to professional, industrial, and academic practice." },
+    { "id": "PEO 2", "desc": "To produce proficient and self-reliant resourceful technocrats who represent a centre of excellence in addressing contemporary challenges through the application of scientific knowledge." },
+    { "id": "PEO 3", "desc": "To produce graduates committed to continuous vocational development and lifelong learning, ensuring they remain expert thinkers who are socially relevant in a rapidly evolving engineering environment." },
+    { "id": "PEO 4", "desc": "To transform students into expert thinkers and innovative managers who provide result-oriented and resourceful solutions for the resolution of social and real-world problems across all fields of Computer Engineering." },
+    { "id": "PEO 5", "desc": "To produce graduates of high character who uphold integrity and ethical standards, acquiring and applying scientific knowledge responsibly in line with sustainable development principles." }
 ]
 
 computer_pos = [
