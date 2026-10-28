@@ -22,6 +22,7 @@ import CourseInfo from './components/obe/CourseInfo'
 import CourseOutlines from './components/obe/CourseOutlines'
 import LecturePlans from './components/obe/LecturePlans'
 import ObeMapping from './components/obe/ObeMapping'
+import CloAttainment from './components/obe/CloAttainment'
 
 function App() {
   const { route, navigate } = useHashRoute();
@@ -270,6 +271,18 @@ function App() {
       if (activeSubSection === 'mapping') {
         return (
           <ObeMapping
+            deptData={deptData}
+            activeDept={activeDept}
+            handleSectionClick={handleSectionClick}
+            handleSubSectionClick={handleSubSectionClick}
+          />
+        );
+      }
+
+      // CLO Attainment calculator
+      if (activeSubSection === 'clo') {
+        return (
+          <CloAttainment
             deptData={deptData}
             activeDept={activeDept}
             handleSectionClick={handleSectionClick}

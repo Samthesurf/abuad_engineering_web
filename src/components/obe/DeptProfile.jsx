@@ -29,7 +29,7 @@ export default function DeptProfile({ deptData, activeDept, handleSectionClick, 
         { (activeDept === 'computer' || activeDept === 'electrical') ? (
           <div className="provost-card" style={{ margin: '20px 0' }}>
             <img className="provost-avatar" src={hodElecCompImg} alt={deptData.hod} />
-            <div className="provost-name">{deptData.hod.split(',')[0]}</div>
+            <div className="provost-name">{deptData.hod.split(',').slice(0, 2).join(',').replace('R.Eng.', 'R. Eng.')}</div>
             <div className="provost-role">Head of Programme (HOD)</div>
             <div className="provost-subtitle">{deptData.name}, ABUAD</div>
           </div>
@@ -51,6 +51,18 @@ export default function DeptProfile({ deptData, activeDept, handleSectionClick, 
         <div className="info-section">
           <h4 className="info-section-title">Mission</h4>
           <p className="info-section-text">{deptData.mission}</p>
+        </div>
+        <div className="info-section">
+          <h4 className="info-section-title">Programme History</h4>
+          <p className="info-section-text">
+            {deptData.history.length > 340 ? `${deptData.history.slice(0, 340)}…` : deptData.history}
+          </p>
+          <span
+            onClick={() => handleSubSectionClick('history')}
+            style={{ cursor: 'pointer', fontWeight: 700, color: 'var(--primary-dark)' }}
+          >
+            Read full history ›
+          </span>
         </div>
       </div>
     </div>

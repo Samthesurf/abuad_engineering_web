@@ -31,6 +31,15 @@ export default function Handbooks({ deptData, activeDept, handleSectionClick, ha
           <div className="handbook-card-body">
             <h3>{deptData.handbooks.student.title}</h3>
             <p>{deptData.handbooks.student.desc}</p>
+            {deptData.handbooks.student.file && (
+              <a
+                href={deptData.handbooks.student.file}
+                download
+                style={{ display: 'inline-block', marginTop: '10px', fontWeight: 700, color: 'var(--primary-dark)' }}
+              >
+                Download PDF ›
+              </a>
+            )}
           </div>
         </div>
         <div className="handbook-card">

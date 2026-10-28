@@ -145,6 +145,7 @@ export const collegeData = {
     "handbooks": {
       "student": {
         "title": "Computer Engineering Student Handbook",
+        "file": "/handbooks/computer-engineering-handbook-2026.pdf",
         "desc": "This handbook serves as the academic guide for B.Eng. Computer Engineering students. It includes details on the modularized course unit system, graduation requirements (minimum 180 units), class of degree thresholds, CGPA calculations, and standard academic policies."
       },
       "departmental": {
@@ -2850,6 +2851,7 @@ export const collegeData = {
     "handbooks": {
       "student": {
         "title": "Electrical/Electronics Engineering Student Handbook",
+        "file": "/handbooks/electrical-engineering-handbook-2026.pdf",
         "desc": "This handbook serves as the primary academic manual for Electrical/Electronics Engineering undergraduates. It contains information on laboratory sessions, mandatory industrial attachment (SWEP/SIWES), credit loading, course structures, and graduation benchmarks."
       },
       "departmental": {
